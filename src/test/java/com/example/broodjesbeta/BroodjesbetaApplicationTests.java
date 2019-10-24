@@ -23,11 +23,11 @@ class BroodjesbetaApplicationTests {
         brepository.save(b);
 
 
-        List<Broodjes> sands = brepository.findAll();
+        List<Broodjes> sandwiches = brepository.findAll();
 
 
-        assertEquals(1, sands.size());
-        assertEquals("cheese", sands.get(0).getName());
+        assertEquals(1, sandwiches.size());
+        assertEquals("cheese", sandwiches.get(0).getName());
 
     }
 
